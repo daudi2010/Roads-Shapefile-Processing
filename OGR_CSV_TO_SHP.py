@@ -10,11 +10,11 @@ from osgeo import ogr #and one more for the creation of a new field
 EPSG_code="4326"
 
 #CSV folder
-csvs_path = r"G:\SMEC\csvs"
+csvs_path = r"G:\csvs"
 
 arcpy.env.workspace =csvs_path
 
-out_shapefiles=r"G:\SMEC\csvs\shapes"
+out_shapefiles=r"G:\csvs\shapes"
 
 #create list of CSV files in folder
 csvs = arcpy.ListFiles("*.csv")
