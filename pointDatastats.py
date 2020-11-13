@@ -3,11 +3,12 @@
 This script  classifies Bridges,culverts, drifts Through selection by various ATTRIBUTES
 and computes  the TOTAL SUM  per that criteria per type
 
-Written by David Kanyari for Rics Project 2018 -SMEC/KIRI
-You just need to declare  the input shapefiles shapefile
+Written by David Kanyari 
+Email: daudi2010[at]gmail.com
+You just need to declare  the input shapefiles 
 
-David Kanyari
-Novemeber 2018
+
+November 2018
 daudi2010@gmail.com
 """
 #################################################################################################################
