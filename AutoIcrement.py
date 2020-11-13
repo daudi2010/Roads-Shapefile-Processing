@@ -1,11 +1,11 @@
 # auto increment in arcpy
-rec=0 
-def autoIncrement(): 
- global rec 
- pStart = 1  
- pInterval = 1 
- if (rec == 0):  
-  rec = pStart  
+red=0 
+def Auto_Increment(): 
+ global r 
+ Start = 1  
+ Interval = 1 
+ if (r == 0):  
+  r = Start  
  else:  
-  rec += pInterval  
- return rec
+  r += Interval  
+ return r
