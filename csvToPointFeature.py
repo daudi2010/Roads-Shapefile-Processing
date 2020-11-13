@@ -8,13 +8,13 @@ import csv
 # folder with csv files
 #set workspace parameter: ONLY USER DEFINED INPUT-
 
-csvs_path = r"G:\SMEC\csvs"
+csvs_path = r"G:\csvs"
 #set workspace parameter: ONLY USER DEFINED INPUT-
 
 arcpy.env.workspace =csvs_path
 
-out_shapefiles=r"G:\SMEC\csvs\shapes"
-template=r"G:\SMEC\csvs\shapes\videos.shp"
+out_shapefiles=r"G:\csvs\shapes"
+template=r"G:\shapes\videos.shp"
 ############SCRIPT###############################
 
 
