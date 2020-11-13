@@ -5,15 +5,15 @@ import glob
 import os
 
 # output directory
-output_dir=r"\\GEODEV-SRV\\Kajiado\\MergedPointData22Nov"
+output_dir=r"\\MergedPointData22Nov"
 # list of  available .shp  files
-shapefiles=glob.glob(r"\\GEODEV-SRV\\Kajiado\\Day1-Day21Combined_UneditedPointData\\*.shp")
+shapefiles=glob.glob(r"\\Day1-Day21Combined_UneditedPointData\\*.shp")
 
-rootpath=r"\\GEODEV-SRV\\Kajiado\\EDITTED DATA"
+rootpath=r"\\EDITTED DATA"
 #list of other .shp files in sserver
 resultlist = [y for x in os.walk(rootpath) for y in glob.glob(os.path.join(x[0], '*.shp'))]
 #loop and check schema
-rootpath=r"\\GEODEV-SRV\\Kajiado\\EDITTED DATA"
+#rootpath=r"\\EDITTED DATA"
 for feature in shapefiles:
     print feature
     field_names=[]
