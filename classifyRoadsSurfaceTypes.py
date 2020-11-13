@@ -1,7 +1,7 @@
 ###############################################################################################################
 """
 This script  classifies roads acording to SURFACE TYPE and ROAD RESERVE WIDTH Through selection by ATTRIBUTES
-Written by David Kanyari for Rics Project 2016
+Written by David Kanyari in 2016
 You just need to declare input folder with one roads shapefile and an output folder where new shapefile will be exported to
 """
 #################################################################################################################
@@ -21,8 +21,8 @@ case_narrow="R_Reserve < 9" # Narrow roads ! less than 9m in Road Reserve length
 cases={"Paved":case_paved,"Gravel":case_gravel,"Earth":case_earth,"Narrow":case_narrow}
 
 # Define the folder paths
-folders=r'D:\RICS2016\Edited'
-out=r'D:\RICS2016\Edited\Surfacetypes'
+folders=r'D:\Edited'
+out=r'D:\Edited\Surfacetypes'
 
 # Select by attributes and Export
 
