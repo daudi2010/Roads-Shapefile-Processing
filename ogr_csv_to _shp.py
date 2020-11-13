@@ -9,9 +9,9 @@ from osgeo import ogr #and one more for the creation of a new field
 EPSG_code="4326"
 
 #CSV folder
-csvs_path = r"G:\SMEC\csvs"
+csvs_path = r"G:\csvs"
 # Path for output Shapefile
-out_shapefiles=r"G:\SMEC\csvs\shapes"
+out_shapefiles=r"G:\shapes"
 PATH = csvs_path
 EXT = "*.csv"
 csvs = [file
